@@ -31,12 +31,12 @@ export default function Navbar() {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link href="/" className="flex items-center">
           <img 
-            src="/logo.svg" 
+            src="/assets/REMAKEVAN_4500x3375_sin.jpg" 
             alt="Remake Van Logo" 
-            className="h-12"
+            className="h-16 object-contain"
             onError={(e) => {
               const target = e.target as HTMLImageElement;
-              target.src = "https://i.ibb.co/cQKkqh4/remake-Van-logo.png";
+              target.src = "/logo.svg";
             }}
           />
         </Link>

@@ -9,7 +9,7 @@ const projects: Project[] = [
     title: "Proyecto Nómada",
     description: "Diseño compacto para parejas aventureras",
     category: "interiores",
-    image: "https://images.unsplash.com/photo-1612284532331-a99bb4aa2609?q=80&w=1932&auto=format&fit=crop",
+    image: "/assets/PHOTO-2023-04-18-12-49-12.jpg",
     alt: "Interior de furgoneta camperizada"
   },
   {
@@ -17,7 +17,7 @@ const projects: Project[] = [
     title: "Proyecto Libertad",
     description: "Furgoneta 4x4 para terrenos difíciles",
     category: "exteriores",
-    image: "https://images.unsplash.com/photo-1616190419596-e65cef84851d?q=80&w=1974&auto=format&fit=crop",
+    image: "/assets/REMAKEVAN_4500x3375_sin.jpg",
     alt: "Exterior de furgoneta camperizada"
   },
   {
@@ -25,7 +25,7 @@ const projects: Project[] = [
     title: "Proyecto Familia",
     description: "Diseño espacioso para viajes familiares",
     category: "completos",
-    image: "https://images.unsplash.com/photo-1568844293986-ca011da26ff6?q=80&w=2070&auto=format&fit=crop",
+    image: "/assets/20241220_123330.jpg",
     alt: "Proyecto completo de camperización"
   },
   {
@@ -33,7 +33,7 @@ const projects: Project[] = [
     title: "Proyecto Minimalista",
     description: "Diseño sencillo y funcional",
     category: "interiores",
-    image: "https://images.unsplash.com/photo-1624286284556-d21de29ea06c?q=80&w=1974&auto=format&fit=crop",
+    image: "/assets/PHOTO-2023-04-18-12-49-12.jpg",
     alt: "Interior minimalista de camper"
   },
   {
@@ -41,7 +41,7 @@ const projects: Project[] = [
     title: "Proyecto Aventura",
     description: "Preparada para cualquier terreno",
     category: "exteriores",
-    image: "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?q=80&w=2070&auto=format&fit=crop",
+    image: "/assets/REMAKEVAN_4500x3375_sin.jpg",
     alt: "Furgoneta en paraje natural"
   },
   {
@@ -49,33 +49,9 @@ const projects: Project[] = [
     title: "Proyecto Panorama",
     description: "Con ventanas panorámicas para disfrutar del paisaje",
     category: "completos",
-    image: "https://images.unsplash.com/photo-1602976615520-8e64fdeadc16?q=80&w=1939&auto=format&fit=crop",
+    image: "/assets/20241220_123330.jpg",
     alt: "Furgoneta camperizada con vista panorámica"
-  },
-  {
-    id: 7,
-    title: "Proyecto Coastal",
-    description: "Perfecta para viajes por la costa",
-    category: "exteriores",
-    image: "https://images.unsplash.com/photo-1510674485131-dc88d96369b4?q=80&w=2069&auto=format&fit=crop",
-    alt: "Furgoneta camperizada en la playa"
-  },
-  {
-    id: 8,
-    title: "Proyecto Acogedor",
-    description: "Interior cálido para sentirte como en casa",
-    category: "interiores",
-    image: "https://images.unsplash.com/photo-1594496479273-8102b9f6f26a?q=80&w=1950&auto=format&fit=crop",
-    alt: "Interior acogedor de camper van"
-  },
-  {
-    id: 9,
-    title: "Proyecto Multiaventura",
-    description: "Diseñada para múltiples actividades deportivas",
-    category: "completos",
-    image: "https://images.unsplash.com/photo-1620646233562-f2a31ad24425?q=80&w=2070&auto=format&fit=crop",
-    alt: "Furgoneta camperizada multiaventura"
-  },
+  }
 ];
 
 export default function ProjectsGallery() {
