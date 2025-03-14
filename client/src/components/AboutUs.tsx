@@ -13,7 +13,7 @@ export default function AboutUs() {
           </div>
           
           <div className="md:w-1/2" data-aos="fade-left">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Sobre Remake Van</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Remake Van</h2>
             <p className="text-lg text-gray-700 mb-6">
               Remake Van nace de nuestra propia experiencia de vida: viajamos, vivimos y disfrutamos nuestras furgonetas, y queremos que nuestros clientes puedan hacer lo mismo.
             </p>

@@ -25,7 +25,7 @@ const About = () => {
           </div>
           
           <div className="lg:w-1/2">
-            <span className="font-accent text-primary text-2xl">Sobre nosotros</span>
+            <span className="font-accent text-primary text-2xl">Nosotros</span>
             <h2 className="font-heading text-3xl md:text-4xl font-bold mb-6 mt-2">Somos Remake Van</h2>
             <p className="text-lg mb-6">
               Remake Van nace de nuestra propia experiencia de vida: viajamos, vivimos y disfrutamos 
