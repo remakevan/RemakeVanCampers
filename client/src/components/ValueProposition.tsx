@@ -34,7 +34,7 @@ export default function ValueProposition() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Precios accesibles</h3>
-                  <p className="text-gray-600">Sin los costes de un local, podemos ofrecer mejores precios sin reducir la calidad.</p>
+                  <p className="text-gray-600">Nos adaptamos a tus necesidades para ofrecerte la mejor calidad al mejor precio.</p>
                 </div>
               </li>
             </ul>
