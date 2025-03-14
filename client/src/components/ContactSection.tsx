@@ -234,6 +234,15 @@ export default function ContactSection() {
                     <i className="fab fa-pinterest mr-2 text-xl"></i>
                     Pinterest
                   </a>
+                  <a
+                    href="https://www.tiktok.com/@remake.van"
+                    className="flex items-center justify-center bg-black hover:bg-[#1e1e1e] text-white rounded-lg py-3 px-6 transition-colors shadow-md flex-1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fab fa-tiktok mr-2 text-xl"></i>
+                    TikTok
+                  </a>
                 </div>
               </div>
             </div>
