@@ -36,17 +36,17 @@ export default function ContactSection() {
   // Handle form submission
   const onSubmit = async (data: ContactFormValues) => {
     setIsSubmitting(true);
-    
+
     try {
       // Here you would typically send the data to a server
       // For now, we'll just simulate a successful submission
       await new Promise(resolve => setTimeout(resolve, 1000));
-      
+
       toast({
         title: "Mensaje enviado",
         description: "Gracias por contactar con Remake Van. Nos pondremos en contacto contigo pronto.",
       });
-      
+
       form.reset();
     } catch (error) {
       toast({
@@ -68,7 +68,7 @@ export default function ContactSection() {
             Estamos aquí para responder a todas tus preguntas y ayudarte a crear la furgoneta de tus sueños.
           </p>
         </div>
-        
+
         <div className="flex flex-col md:flex-row gap-12">
           <div className="md:w-1/2" data-aos="fade-right">
             <Form {...form}>
@@ -90,7 +90,7 @@ export default function ContactSection() {
                     </FormItem>
                   )}
                 />
-                
+
                 <FormField
                   control={form.control}
                   name="email"
@@ -108,7 +108,7 @@ export default function ContactSection() {
                     </FormItem>
                   )}
                 />
-                
+
                 <FormField
                   control={form.control}
                   name="phone"
@@ -126,7 +126,7 @@ export default function ContactSection() {
                     </FormItem>
                   )}
                 />
-                
+
                 <FormField
                   control={form.control}
                   name="message"
@@ -145,7 +145,7 @@ export default function ContactSection() {
                     </FormItem>
                   )}
                 />
-                
+
                 <Button
                   type="submit"
                   className="w-full bg-amber-500 hover:bg-amber-600 text-white font-medium py-3 px-8 rounded-lg transition-colors shadow-lg"
@@ -156,11 +156,11 @@ export default function ContactSection() {
               </form>
             </Form>
           </div>
-          
+
           <div className="md:w-1/2" data-aos="fade-left">
             <div className="h-full bg-gray-50 rounded-xl shadow-lg p-8 flex flex-col">
               <h3 className="text-2xl font-bold mb-6">Información de contacto</h3>
-              
+
               <div className="flex items-start mb-6">
                 <div className="mr-4 text-amber-500">
                   <i className="fas fa-map-marker-alt text-xl"></i>
@@ -170,7 +170,7 @@ export default function ContactSection() {
                   <p className="text-gray-600">Rincón de la Victoria (Málaga)</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start mb-6">
                 <div className="mr-4 text-amber-500">
                   <i className="fas fa-phone text-xl"></i>
@@ -180,17 +180,17 @@ export default function ContactSection() {
                   <p className="text-gray-600">+34 654 181 829</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start mb-6">
                 <div className="mr-4 text-amber-500">
                   <i className="fas fa-envelope text-xl"></i>
                 </div>
                 <div>
                   <h4 className="font-semibold text-lg">Email</h4>
-                  <p className="text-gray-600">info@remakevan.com</p>
+                  <p className="text-gray-600">info.remakevan@gmail.com</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start mb-8">
                 <div className="mr-4 text-amber-500">
                   <i className="fas fa-clock text-xl"></i>
@@ -201,7 +201,7 @@ export default function ContactSection() {
                   <p className="text-gray-600">Sábados: 10:00 - 14:00</p>
                 </div>
               </div>
-              
+
               <div className="mt-auto">
                 <h4 className="font-semibold text-lg mb-4">Contáctanos directamente</h4>
                 <div className="flex gap-4">
@@ -215,7 +215,7 @@ export default function ContactSection() {
                     WhatsApp
                   </a>
                   <a 
-                    href="mailto:info@remakevan.com" 
+                    href="mailto:info.remakevan@gmail.com" 
                     className="flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white rounded-lg py-3 px-6 transition-colors shadow-md flex-1"
                   >
                     <i className="fas fa-envelope mr-2"></i>
