@@ -28,7 +28,7 @@ export default function HeroSection() {
         playsInline
         poster="/assets/REMAKEVAN_4500x3375_sin.jpg"
       >
-        <source src="/assets/Gen-3 Alpha Turbo 431170585, A cinematic aerial , Cropped - ZeCxX-9-LA, M 5.mp4" type="video/mp4" />
+        <source src="/assets/Gen-3%20Alpha%20Turbo%20431170585,%20A%20cinematic%20aerial%20,%20Cropped%20-%20ZeCxX-9-LA,%20M%205.mp4" type="video/mp4" />
         {/* Fallback image for browsers that don't support video */}
         <img 
           src="/assets/REMAKEVAN_4500x3375_sin.jpg" 
