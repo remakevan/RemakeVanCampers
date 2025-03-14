@@ -167,7 +167,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-lg">Ubicación</h4>
-                  <p className="text-gray-600">Operamos en toda España, con base en Málaga</p>
+                  <p className="text-gray-600">Rincón de la Victoria (Málaga)</p>
                 </div>
               </div>
               
@@ -177,7 +177,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-lg">Teléfono</h4>
-                  <p className="text-gray-600">+34 600 123 456</p>
+                  <p className="text-gray-600">+34 654 181 829</p>
                 </div>
               </div>
               
@@ -206,7 +206,7 @@ export default function ContactSection() {
                 <h4 className="font-semibold text-lg mb-4">Contáctanos directamente</h4>
                 <div className="flex gap-4">
                   <a 
-                    href="https://wa.me/34600123456" 
+                    href="https://wa.me/34654181829" 
                     className="flex items-center justify-center bg-green-500 hover:bg-green-600 text-white rounded-lg py-3 px-6 transition-colors shadow-md flex-1"
                     target="_blank"
                     rel="noopener noreferrer"
