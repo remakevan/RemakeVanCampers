@@ -43,13 +43,13 @@ export default function ValueProposition() {
           <div className="md:w-1/2" data-aos="fade-left">
             <div className="relative rounded-xl overflow-hidden shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1627607419034-189c99f87f5f?q=80&w=1974&auto=format&fit=crop"
-                alt="Interior de camper van con diseño personalizado" 
+                src="/attached_assets/foto brindis.jpg"
+                alt="Brindando dentro de una camper van" 
                 className="w-full h-auto object-cover"
                 loading="lazy"
               />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
-                <p className="text-white font-medium">Diseño llamativo y acogedor para sentirte como en casa</p>
+                <p className="text-white font-medium">Momentos especiales que te hacen sentir como en casa</p>
               </div>
             </div>
           </div>
