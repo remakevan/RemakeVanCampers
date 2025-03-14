@@ -40,7 +40,7 @@ export default function Navbar() {
             }}
           />
         </Link>
-        
+
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
           <a 
@@ -59,7 +59,7 @@ export default function Navbar() {
             href="#nosotros" 
             className={`font-medium ${isScrolled ? 'text-gray-900' : 'text-white'} hover:text-amber-500 transition-colors`}
           >
-            Sobre nosotros
+            Nosotros
           </a>
           <a 
             href="#contacto" 
@@ -74,7 +74,7 @@ export default function Navbar() {
             Configurador
           </Link>
         </nav>
-        
+
         {/* Mobile Menu Button */}
         <button 
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -84,7 +84,7 @@ export default function Navbar() {
           <i className={`fas ${isMenuOpen ? 'fa-times' : 'fa-bars'} text-2xl`}></i>
         </button>
       </div>
-      
+
       {/* Mobile Navigation */}
       {isMenuOpen && (
         <nav className="md:hidden bg-white w-full py-4 px-4 shadow-inner">
