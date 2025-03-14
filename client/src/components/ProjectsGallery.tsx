@@ -33,8 +33,8 @@ const projects: Project[] = [
     title: "Proyecto Minimalista",
     description: "Diseño sencillo y funcional",
     category: "interiores",
-    image: "/assets/PHOTO-2023-04-18-12-49-12.jpg",
-    alt: "Interior minimalista de camper"
+    image: "/assets/Imagen de WhatsApp 2025-03-12 a las 00.05.07_e07f4ca9.jpg",
+    alt: "Furgoneta en la playa con paisaje"
   },
   {
     id: 5,
