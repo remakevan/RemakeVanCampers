@@ -230,6 +230,10 @@ export default function ContactSection() {
                     <i className="fab fa-instagram mr-2 text-xl"></i>
                     Instagram
                   </a>
+                  <a href="https://es.pinterest.com/Remakevan/" className="flex items-center justify-center bg-red-500 hover:bg-red-600 text-white rounded-lg py-3 px-6 transition-colors shadow-md flex-1" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-pinterest mr-2 text-xl"></i>
+                    Pinterest
+                  </a>
                 </div>
               </div>
             </div>
