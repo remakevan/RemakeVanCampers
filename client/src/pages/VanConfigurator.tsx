@@ -2,7 +2,12 @@ import { useState, useEffect } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
-import { vanConfigSchema, vanOptions as defaultOptions, type VanConfigType } from "@shared/schema";
+import { 
+  vanConfigSchema, 
+  vanOptions as defaultOptions, 
+  type VanConfigType,
+  type VanConfiguration
+} from "@shared/schema";
 import { useToast } from "@/hooks/use-toast";
 import { apiRequest } from "@/lib/queryClient";
 
