@@ -68,12 +68,12 @@ export default function VanConfigurator() {
   useEffect(() => {
     const fetchOptions = async () => {
       try {
-        const response = await apiRequest({
+        const response = await apiRequest<{ success: boolean; data: typeof defaultOptions }>({
           url: "/api/van-options",
           method: "GET",
         });
         
-        if (response.success && response.data) {
+        if (response && response.success && response.data) {
           setVanOptions(response.data);
         }
       } catch (error) {
@@ -101,7 +101,7 @@ export default function VanConfigurator() {
     setLoading(true);
     
     try {
-      const response = await apiRequest({
+      const response = await apiRequest<{ success: boolean; data: { price: number } }>({
         url: "/api/calculate-van-price",
         method: "POST",
         body: {
@@ -112,7 +112,7 @@ export default function VanConfigurator() {
         },
       });
       
-      if (response.success && response.data) {
+      if (response && response.success && response.data) {
         setEstimatedPrice(response.data.price);
       }
     } catch (error) {
@@ -148,13 +148,13 @@ export default function VanConfigurator() {
     setSubmitting(true);
     
     try {
-      const response = await apiRequest({
+      const response = await apiRequest<{ success: boolean; data: VanConfiguration }>({
         url: "/api/van-configurations",
         method: "POST",
         body: data,
       });
       
-      if (response.success) {
+      if (response && response.success) {
         setSubmitted(true);
         toast({
           title: "¡Configuración enviada!",

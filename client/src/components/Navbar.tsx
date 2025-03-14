@@ -67,6 +67,12 @@ export default function Navbar() {
           >
             Contacto
           </a>
+          <Link 
+            href="/configurador" 
+            className={`font-medium ${isScrolled ? 'text-amber-600' : 'text-amber-400'} hover:text-amber-500 transition-colors`}
+          >
+            Configurador
+          </Link>
         </nav>
         
         {/* Mobile Menu Button */}
