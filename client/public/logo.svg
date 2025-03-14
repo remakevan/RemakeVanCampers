@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="500" height="120" viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <!-- "remake" text in black -->
+    <text x="0" y="80" font-family="Arial, sans-serif" font-size="90" font-weight="bold" fill="#000000">remake</text>
+    
+    <!-- "Van" text in orange -->
+    <text x="295" y="80" font-family="Arial, sans-serif" font-size="90" font-weight="bold" font-style="italic" fill="#FF7F00">Van</text>
+  </g>
+</svg>
