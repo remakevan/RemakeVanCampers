@@ -204,7 +204,7 @@ export default function ContactSection() {
 
               <div className="mt-auto">
                 <h4 className="font-semibold text-lg mb-4">Contáctanos directamente</h4>
-                <div className="flex gap-4 mb-6">
+                <div className="flex gap-4">
                   <a 
                     href="https://wa.me/34654181829" 
                     className="flex items-center justify-center bg-green-500 hover:bg-green-600 text-white rounded-lg py-3 px-6 transition-colors shadow-md flex-1"
@@ -222,13 +222,8 @@ export default function ContactSection() {
                     Email
                   </a>
                 </div>
-                <h4 className="font-semibold text-lg mb-4">Síguenos</h4>
-                <div className="flex gap-4">
-                  <a
-                    href="https://www.instagram.com/remake_van/"
-                    className="flex items-center justify-center bg-pink-500 hover:bg-pink-600 text-white rounded-lg py-3 px-6 transition-colors shadow-md flex-1"
-                    target="_blank"
-                    rel="noopener noreferrer"
+              </div>
+            </div>
                   >
                     <i className="fab fa-instagram mr-2 text-xl"></i>
                     Instagram
