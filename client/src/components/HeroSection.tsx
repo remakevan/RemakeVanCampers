@@ -28,7 +28,7 @@ export default function HeroSection() {
         playsInline
         poster="https://images.unsplash.com/photo-1516939884455-1445c8652f83?q=80&w=2070&auto=format&fit=crop"
       >
-        <source src="https://assets.mixkit.co/videos/preview/mixkit-traveling-through-the-woods-with-a-camper-van-at-night-42361-large.mp4" type="video/mp4" />
+        <source src="/attached_assets/Gen-3 Alpha Turbo 431170585, A cinematic aerial , Cropped - ZeCxX-9-LA, M 5.mp4" type="video/mp4" />
         {/* Fallback image for browsers that don't support video */}
         <img 
           src="https://images.unsplash.com/photo-1516939884455-1445c8652f83?q=80&w=2070&auto=format&fit=crop" 
