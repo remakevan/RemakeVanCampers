@@ -33,7 +33,7 @@ export default function Navbar() {
           <img 
             src="/assets/REMAKEVAN_4500x3375_sin.jpg" 
             alt="Remake Van Logo" 
-            className="h-16 object-contain"
+            className="h-10 object-contain"
             onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.src = "/logo.svg";
