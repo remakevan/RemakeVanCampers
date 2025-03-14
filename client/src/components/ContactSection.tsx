@@ -224,6 +224,10 @@ export default function ContactSection() {
                 </div>
               </div>
             </div>
+            <div>
+                  <a
+                    href="https://www.instagram.com/remake.van/"
+                    className="flex items-center justify-center bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white rounded-lg py-3 px-6 transition-colors shadow-md flex-1"
                   >
                     <i className="fab fa-instagram mr-2 text-xl"></i>
                     Instagram
@@ -247,8 +251,6 @@ export default function ContactSection() {
                     Pinterest
                   </a>
                 </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
