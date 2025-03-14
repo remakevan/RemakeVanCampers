@@ -45,13 +45,6 @@ export default function AboutUs() {
             </div>
           </div>
         </div>
-        
-        <div className="mt-16" data-aos="fade-up">
-          <h3 className="text-2xl font-bold mb-6 text-center">Nuestra Visión</h3>
-          <p className="text-lg text-gray-700 text-center max-w-3xl mx-auto">
-            Convertirnos en una empresa referente en la camperización personalizada en España, reconocida por nuestra capacidad de optimizar el espacio, encontrar soluciones innovadoras y crear furgonetas con una estética llamativa y funcional. Queremos que más personas descubran el estilo de vida camper con la mejor calidad y un servicio cercano y accesible.
-          </p>
-        </div>
       </div>
     </section>
   );
