@@ -108,7 +108,7 @@ export default function Navbar() {
               className="font-medium text-gray-900 hover:text-amber-500 transition-colors"
               onClick={handleLinkClick}
             >
-              Sobre nosotros
+              Nosotros
             </a>
             <a 
               href="#contacto" 
