@@ -13,14 +13,6 @@ const projects: Project[] = [
     alt: "Interior de furgoneta camperizada"
   },
   {
-    id: 2,
-    title: "Proyecto Libertad",
-    description: "Furgoneta 4x4 para terrenos difíciles",
-    category: "exteriores",
-    image: "/assets/REMAKEVAN_4500x3375_sin.jpg",
-    alt: "Exterior de furgoneta camperizada"
-  },
-  {
     id: 3,
     title: "Proyecto Familia",
     description: "Diseño espacioso para viajes familiares",
@@ -32,17 +24,9 @@ const projects: Project[] = [
     id: 4,
     title: "Proyecto Minimalista",
     description: "Diseño sencillo y funcional",
-    category: "interiores",
-    image: "/assets/Imagen de WhatsApp 2025-03-12 a las 00.05.07_e07f4ca9.jpg",
-    alt: "Furgoneta en la playa con paisaje"
-  },
-  {
-    id: 5,
-    title: "Proyecto Aventura",
-    description: "Preparada para cualquier terreno",
     category: "exteriores",
-    image: "/assets/REMAKEVAN_4500x3375_sin.jpg",
-    alt: "Furgoneta en paraje natural"
+    image: "/assets/furgoneta_playa.jpg",
+    alt: "Furgoneta en la playa con paisaje"
   },
   {
     id: 6,

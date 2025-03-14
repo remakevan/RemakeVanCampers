@@ -35,7 +35,7 @@ export default function AboutUs() {
               <div className="flex flex-col items-center p-4 bg-gray-50 rounded-lg">
                 <i className="fas fa-euro-sign text-amber-500 text-3xl mb-3"></i>
                 <h3 className="font-semibold text-lg text-center">Precios Accesibles</h3>
-                <p className="text-center text-sm mt-2">Al no tener gastos de local, ofrecemos camperizaciones de calidad a precios más competitivos.</p>
+                <p className="text-center text-sm mt-2">Nos adaptamos a tus necesidades para ofrecerte la mejor calidad al mejor precio.</p>
               </div>
               <div className="flex flex-col items-center p-4 bg-gray-50 rounded-lg">
                 <i className="fas fa-mountain text-amber-500 text-3xl mb-3"></i>
