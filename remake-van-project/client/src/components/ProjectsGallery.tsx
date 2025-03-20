@@ -9,7 +9,7 @@ const projects: Project[] = [
     title: "Proyecto Nómada",
     description: "Diseño compacto para parejas aventureras",
     category: "interiores",
-    image: "/assets/PHOTO-2023-04-18-12-49-12.jpg",
+    image: "/docs/assets/ford.jpg",
     alt: "Interior de furgoneta camperizada"
   },
   {
@@ -17,7 +17,7 @@ const projects: Project[] = [
     title: "Proyecto Familia",
     description: "Diseño espacioso para viajes familiares",
     category: "completos",
-    image: "/assets/20241220_123330.jpg",
+    image: "/docs/assets/crafter.jpg",
     alt: "Proyecto completo de camperización"
   },
   {
@@ -25,17 +25,10 @@ const projects: Project[] = [
     title: "Proyecto Minimalista",
     description: "Diseño sencillo y funcional",
     category: "exteriores",
-    image: "/assets/furgoneta_playa.jpg",
+    image: "/docs/assets/ducato.jpg",
     alt: "Furgoneta en la playa con paisaje"
   },
-  {
-    id: 6,
-    title: "Proyecto Panorama",
-    description: "Con ventanas panorámicas para disfrutar del paisaje",
-    category: "completos",
-    image: "/assets/20241220_123330.jpg",
-    alt: "Furgoneta camperizada con vista panorámica"
-  }
+
 ];
 
 export default function ProjectsGallery() {

@@ -38,13 +38,6 @@ const projects = [
     imageSrc: "https://images.unsplash.com/photo-1627556592933-ffe99c1cd9eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
     alt: "Interior de lujo en Renault Master"
   },
-  {
-    id: 6,
-    title: "Iveco Daily",
-    description: "Diseño modular adaptable para diferentes usos",
-    imageSrc: "https://images.unsplash.com/photo-1527786356703-4b100091cd2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-    alt: "Iveco Daily con diseño modular"
-  }
 ];
 
 const Projects = () => {

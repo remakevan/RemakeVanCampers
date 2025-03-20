@@ -28,10 +28,10 @@ export default function HeroSection() {
         playsInline
         
       >
-        <source src="/assets/Gen-3%20Alpha%20Turbo%20431170585,%20A%20cinematic%20aerial%20,%20Cropped%20-%20ZeCxX-9-LA,%20M%205.mp4" type="video/mp4" />
+        <source src="/docs/assets/acantilado.mp4" type="video/mp4" />
         {/* Fallback image for browsers that don't support video */}
         <img 
-          src="/assets/REMAKEVAN_4500x3375_sin.jpg" 
+          src="/docs/assets/logo.jpg" 
           alt="Remake Van - Camperización de furgonetas" 
           className="absolute inset-0 w-full h-full object-cover"
         />
