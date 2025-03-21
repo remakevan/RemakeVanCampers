@@ -5,7 +5,7 @@ export default function AboutUs() {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2" data-aos="fade-right">
             <img 
-              src="/assets/PHOTO-2023-04-18-12-49-12.jpg" 
+              src="assets/PHOTO-2023-04-18-12-49-12.jpg" 
               alt="Remake Van - Interior de furgoneta camperizada" 
               className="w-full h-auto rounded-xl shadow-lg"
               loading="lazy"

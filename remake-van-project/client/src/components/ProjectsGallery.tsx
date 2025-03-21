@@ -9,7 +9,7 @@ const projects: Project[] = [
     title: "Proyecto Nómada",
     description: "Diseño compacto para parejas aventureras",
     category: "interiores",
-    image: "/docs/assets/ford.jpg",
+    image: "docs/assets/ford.jpg",
     alt: "Interior de furgoneta camperizada"
   },
   {
@@ -17,7 +17,7 @@ const projects: Project[] = [
     title: "Proyecto Familia",
     description: "Diseño espacioso para viajes familiares",
     category: "completos",
-    image: "/docs/assets/crafter.jpg",
+    image: "docs/assets/crafter.jpg",
     alt: "Proyecto completo de camperización"
   },
   {
@@ -25,7 +25,7 @@ const projects: Project[] = [
     title: "Proyecto Minimalista",
     description: "Diseño sencillo y funcional",
     category: "exteriores",
-    image: "/docs/assets/ducato.jpg",
+    image: "docs/assets/ducato.jpg",
     alt: "Furgoneta en la playa con paisaje"
   },
 

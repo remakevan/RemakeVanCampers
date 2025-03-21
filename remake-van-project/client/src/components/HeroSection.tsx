@@ -28,10 +28,10 @@ export default function HeroSection() {
         playsInline
         
       >
-        <source src="/docs/assets/acantilado.mp4" type="video/mp4" />
+        <source src="docs/assets/acantilado.mp4" type="video/mp4" />
         {/* Fallback image for browsers that don't support video */}
         <img 
-          src="/docs/assets/logo.jpg" 
+          src="docs/assets/logo.jpg" 
           alt="Remake Van - Camperización de furgonetas" 
           className="absolute inset-0 w-full h-full object-cover"
         />
