@@ -4,15 +4,16 @@ const Hero = () => {
       {/* Video Background */}
       <div className="absolute inset-0 w-full h-full bg-black">
         <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="w-full h-full object-cover"
-        >
-          <source src="https://assets.mixkit.co/videos/preview/mixkit-traveling-in-a-camper-van-with-a-view-of-the-mountains-39659-large.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="w-full h-full object-cover"
+>
+  <source src="https://assets.mixkit.co/videos/preview/mixkit-traveling-in-a-camper-van-with-a-view-of-the-mountain-31764-large.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
       </div>
       
       {/* Overlay */}
