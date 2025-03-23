@@ -1,6 +1,6 @@
-import { useIntersectionObserver } from "@/hooks/use-intersection-observer";
+import { useIntersectionObserver } from "../hooks/use-intersection-observer";
 import { useRef, useState } from "react";
-import { Lightbox } from "@/components/ui/lightbox";
+import { Lightbox } from "../components/ui/lightbox";
 
 const projects = [
   {
