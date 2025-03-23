@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import LightboxGallery from './LightboxGallery';
-import { Project } from '@/lib/types';
+import { Project } from '../lib/types';
 
 // Project data
 const projects: Project[] = [

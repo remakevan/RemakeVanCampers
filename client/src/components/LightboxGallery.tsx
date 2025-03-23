@@ -1,8 +1,8 @@
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
-import { Project } from "@/lib/types";
-import { Card, CardContent } from "@/components/ui/card";
+import { Project } from "../lib/types";
+import { Card, CardContent } from "../components/ui/card";
 import { X } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 
 interface LightboxGalleryProps {
   projects: Project[];

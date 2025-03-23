@@ -31,7 +31,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link href="/" className="flex items-center">
           <img 
-            src="/assets/REMAKEVAN_4500x3375_sin.jpg" 
+            src="/assets/logo.jpg" 
             alt="Remake Van Logo" 
             className="h-10 object-contain"
             onError={(e) => {
