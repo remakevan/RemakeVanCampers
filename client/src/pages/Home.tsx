@@ -1,14 +1,14 @@
 import Navbar from "../components/Navbar";
-import HeroSection from "./components/HeroSection";
-import ValueProposition from "./components/ValueProposition";
-import ProjectsGallery from "./components/ProjectsGallery";
-import ProcessSection from "./components/ProcessSection";
-import AboutUs from "./components/AboutUs";
-import Testimonials from "./components/Testimonials";
-import CTASection from "./components/CTASection";
-import ContactSection from "./components/ContactSection";
-import Footer from "./components/Footer";
-import FloatingButtons from "./components/FloatingButtons";
+import HeroSection from "../components/HeroSection";
+import ValueProposition from "../components/ValueProposition";
+import ProjectsGallery from "../components/ProjectsGallery";
+import ProcessSection from "../components/ProcessSection";
+import AboutUs from "../components/AboutUs";
+import Testimonials from "../components/Testimonials";
+import CTASection from "../components/CTASection";
+import ContactSection from "../components/ContactSection";
+import Footer from "../components/Footer";
+import FloatingButtons from "../components/FloatingButtons";
 import { useEffect } from "react";
 
 export default function Home() {

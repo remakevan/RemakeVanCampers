@@ -1,5 +1,6 @@
+import { vanConfigSchema } from "../../../shared/schema";
 import { useState, useEffect } from "react";
-import { zodResolver } from "..hookform/resolvers/zod";
+import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { 
@@ -7,7 +8,7 @@ import {
   vanOptions as defaultOptions, 
   type VanConfigType,
   type VanConfiguration
-} from ".shared/schema";
+} from "../../../shared/schema";
 import { useToast } from "../hooks/use-toast";
 import { apiRequest } from "../lib/queryClient";
 
