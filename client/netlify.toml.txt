@@ -1,6 +1,10 @@
 [build]
-  publish = "dist"
+  base = "client"
+  publish = "client/dist"
   command = "npm run build"
+
+[functions]
+  directory = "netlify/functions"
 
 [[redirects]]
   from = "/*"
