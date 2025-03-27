@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ["drizzle-orm"]
+      external: ["drizzle-orm/pg-core"]
     }
   }
 });
